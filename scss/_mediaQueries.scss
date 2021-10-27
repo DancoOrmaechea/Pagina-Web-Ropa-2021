@@ -1,0 +1,117 @@
+@media only screen and (max-width:320px){
+    .ropa__Inicio{
+        display: flex;
+        justify-content: start;
+        border-style:none;
+        border-width: none;
+        border-color: #e9d3d0 ;
+        cursor:pointer;
+        border-radius:none;
+    }
+    
+    .ropa__img{
+        block-size: 12rem;
+    }
+    
+    .carrusel__img{
+        block-size: 12rem;
+    }
+    
+    .navegacion{
+        position:static;
+        top: 0rem;
+        background-color: #e9d3d0;
+        font-size: 1rem;
+        text-decoration: none;
+        padding: 0rem 0rem 0rem 0rem;
+        max-width: 1000px;
+        margin: auto;
+    }
+    
+    .tabla{
+        background-color:#b3dee2;
+        color:#e27396;
+        font-size:1rem;
+        display: grid;
+        justify-content: start;
+        flex-basis: 100%;
+    }
+    
+    tr{
+        font-size: 1.5rem;
+    }
+    
+    li a{
+        text-decoration:none;
+        color: #30343f;
+        padding: 10px;
+        display: block;
+    }
+    
+    .titulo{
+        background-color:#30343f;
+        font-size: 2rem;
+    }
+    
+    h2{
+        font-size: 2rem;
+    }
+    
+    footer{
+        font-size: 2rem;
+    }
+    
+    .redes__img{
+        block-size: 2rem;
+    }
+    }
+
+@media only screen and (min-width:768px){
+
+    .ropa__Inicio{
+        display: flex;
+        justify-content: start;
+        border-style:none;
+        border-width: none;
+        border-color: #e9d3d0 ;
+        cursor:pointer;
+        border-radius:none;
+}
+    .ropa__img{
+        block-size: 24rem;
+}
+}
+
+@media only screen and (min-width:1440px){
+
+    .ropa__Inicio{
+        display: grid;
+        grid-template-columns: 40rem 40rem 40rem;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .ropa__img{
+        block-size: 50rem;
+    }
+}
+
+@keyframes pandaAnimado{
+    
+}
+
+    h5{
+        font-size: 10px;
+    }
+
+    
+@media only screen and (max-width:320px){
+    .subtitulo__nosotros{
+        font-size: 1rem;
+    }
+    .parrafo__Primero{
+        font-size: 1rem;
+    }
+    .parrafo__Segundo{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,43 @@
+.contactate__Titulo{
+    font-size: 3rem;
+    color: #ffd3da;
+    background-color: #30343f;
+}
+
+.formulario__Contacto{
+    font-family: 'Segoe UI';
+    background-color:#ffd3da;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height: 30rem;
+    margin: 5rem 100rem 5rem 4rem;
+    border-radius: 1rem;
+}
+
+.animate_animated{
+    border-style: none;
+    border-radius: 100rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    animation-name: pandaAnimado;
+    animation: animate__heartBeat;
+    animation-duration: 2s;
+}
+
+.img__Panda{
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo__Dudas{
+    background-color:#e9d3d0;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3rem;
+    padding: 1rem 5rem 1rem 1rem;
+    text-align: center;
+}

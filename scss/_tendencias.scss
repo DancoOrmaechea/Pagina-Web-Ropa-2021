@@ -1,0 +1,22 @@
+.img__Tendencias{
+    block-size: 50rem;
+    border-style: none;
+    border-width: 0rem;
+    cursor:pointer;
+    border-radius: 1rem;
+    z-index: 0;
+    padding: 5rem;
+    &:hover{
+        opacity: 80%;
+        transform: scale(110%,110%);
+    }
+}
+
+.subtitulo__h3{
+    font: italic;
+    font-size: 4rem;
+    background-color: #30343f;
+    color: #e9d3d0;
+    display: grid;
+    text-align: center;
+}

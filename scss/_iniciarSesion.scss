@@ -1,0 +1,26 @@
+.titulo__Sesion{
+    background-color: #30343f;
+}
+
+.fondo__Sesion{
+    background-image:linear-gradient(to bottom,#a1e6ee,#dcf8fc);
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 3rem 3rem 3rem 3rem;
+    border-radius: 15rem;
+}
+
+.formulario__sesion{
+    background-color:#ffd3da;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height: 20rem;
+    margin: 10rem 70rem 1rem 70rem;
+    border-radius: 1rem;
+}
+
+.parrafo__Contraseña{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,48 @@
+.titulo__nosotros{
+    background-color: #36383d;
+}
+
+.subtitulo__nosotros{
+    font-size: 4rem;
+    background-color: #30343f;
+    display: grid;
+    text-align: center;
+}
+
+.parrafo__Primero{
+    font-size: 3rem;
+    background-color: #fce4e8;
+    border-radius: 2rem;
+    display: grid;
+    text-align: start;
+}
+
+.parrafo__Segundo{
+    font-size: 3rem;
+    background-color: #ffd3da;
+    border-radius: 2rem;
+    display: grid;
+    text-align: center;
+}
+
+.parrafo__Tercero{
+    font-size: 3rem;
+    background-color: #fcc1cb;
+    border-radius: 2rem;
+    display: grid;
+    text-align: end;
+}
+
+.img__Nosotros{
+    block-size: 30rem;
+    border-style: none;
+    border-width: 0rem;
+    border-color: #e9d3d0 ;
+    cursor:default;
+    border-radius: 2rem;
+    z-index: 0;
+    &:hover{
+        transition: step-start;
+        transform: scale(110%)
+        }
+    }
