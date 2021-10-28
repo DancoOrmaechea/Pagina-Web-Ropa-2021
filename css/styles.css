@@ -712,3 +712,24 @@ footer{
         justify-content: space-around;
     }
 }
+/* PAGINA INDUMENTARIA*/
+@media only screen and (max-width:320px){
+    .imagen__Indumentaria{
+        block-size: 11rem;
+        border-style: inset;
+        border-width: 0rem;
+        border-color: #e9d3d0 ;
+        cursor:pointer;
+        border-radius: 0,5rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    .imagen__Indumentaria{
+        block-size: 25rem;
+        border-style: inset;
+        border-width: 1rem;
+        border-color: #e9d3d0 ;
+        cursor:pointer;
+        border-radius: 0,5rem;
+    }
+}
