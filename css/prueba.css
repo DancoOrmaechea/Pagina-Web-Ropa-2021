@@ -77,39 +77,6 @@
   .parrafo__Segundo {
     font-size: 1rem; } }
 
-.subtitulo__Indumentaria__main-1 {
-  font-size: 20px; }
-
-.subtitulo__Indumentaria__main-2 {
-  font-size: 40px; }
-
-.subtitulo__Indumentaria__main-3 {
-  font-size: 60px; }
-
-.blue__background {
-  background-color: blue;
-  height: 50px; }
-
-.black__background {
-  background-color: black;
-  height: 50px; }
-
-.green__background {
-  background-color: green;
-  height: 50px; }
-
-.pink-background {
-  background-color: pink;
-  height: 60px; }
-
-.red-background {
-  background-color: red;
-  height: 60px; }
-
-.yellow-background {
-  background-color: yellow;
-  height: 60px; }
-
 .contactate__Titulo {
   font-size: 3rem;
   color: #ffd3da;
@@ -163,8 +130,7 @@
   border-width: 2rem;
   border-color: #e9d3d0;
   cursor: pointer;
-  border-radius: 2rem;
-  z-index: 0; }
+  border-radius: 2rem; }
 
 .h2__indumentaria {
   color: #e9d3d0;
@@ -315,7 +281,6 @@ header {
   position: sticky;
   top: 0rem;
   background-color: #e9d3d0;
-  color: #37d5e4;
   font-size: 2rem;
   text-decoration: none;
   padding: 1rem 3rem 1rem 3rem;
