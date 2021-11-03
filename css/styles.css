@@ -443,22 +443,22 @@ footer{
 }
 @media only screen and (max-width:425px){
 
-    .ropa__Inicio{
-        display: flex;
-        justify-content: start;
-        border-style:none;
-        border-width: none;
-        border-color: #e9d3d0 ;
-        cursor:pointer;
-        border-radius:none;
-    }
-    .ropa__img{
-        block-size: 15rem;
-    }
-    .carrusel__img{
-        block-size: 16rem;
-    }
-    }
+.ropa__Inicio{
+    display: flex;
+    justify-content: start;
+    border-style:none;
+    border-width: none;
+    border-color: #e9d3d0 ;
+    cursor:pointer;
+    border-radius:none;
+}
+.ropa__img{
+    block-size: 15rem;
+}
+.carrusel__img{
+    block-size: 16rem;
+}
+}
 @media only screen and (min-width:768px){
 
 .ropa__Inicio{
