@@ -745,38 +745,38 @@ footer{
 }
 }
 @media only screen and (min-width:1440px){
-    .parrafo__Trabajo{
-        background-color: #e9d3d0;
-        display: grid;
-        grid-template-columns: 50rem 130rem;
-    
-    }
-    .subtitulo__Trabajo{
-        color: #ffd3da;
-        font-size: 3rem;
-        background-color: #30343f;
-        border-radius: 3rem;
-        text-align: center;
-    
-    }
-    .h3__Trabajo{
-        color: #ffd3da;
-        background-color:#30343f;
-        border-radius: 1rem;
-        font-size: 3rem;
-    }
-    
-    .formulario__Trabajo{ 
-        background-color:#6c6d70;
-        display:flex;
-        flex-direction: column;
-        justify-content:space-around;
-        height: 30rem;
-        margin: 5rem 100rem 5rem 4rem;
-        border-radius: 1rem;
-        align-items:stretch;
-        transform: translate(40rem, 0rem); 
-    }
+.parrafo__Trabajo{
+    background-color: #e9d3d0;
+    display: grid;
+    grid-template-columns: 50rem 130rem;
+
+}
+.subtitulo__Trabajo{
+    color: #ffd3da;
+    font-size: 3rem;
+    background-color: #30343f;
+    border-radius: 3rem;
+    text-align: center;
+
+}
+.h3__Trabajo{
+    color: #ffd3da;
+    background-color:#30343f;
+    border-radius: 1rem;
+    font-size: 3rem;
+}
+
+.formulario__Trabajo{ 
+    background-color:#6c6d70;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height: 30rem;
+    margin: 5rem 100rem 5rem 4rem;
+    border-radius: 1rem;
+    align-items:stretch;
+    transform: translate(40rem, 0rem); 
+}
 }
 /* PAGINA DE TENDENCIAS*/
 @media only screen and (max-width:320px){
@@ -886,22 +886,22 @@ footer{
 }
 /* PAGINA INDUMENTARIA*/
 @media only screen and (max-width:320px){
-    .imagen__Indumentaria{
-        block-size: 11rem;
-        border-style: inset;
-        border-width: 0rem;
-        border-color: #e9d3d0 ;
-        cursor:pointer;
-        border-radius: 0,5rem;
-    }
+.imagen__Indumentaria{
+    block-size: 11rem;
+    border-style: inset;
+    border-width: 0rem;
+    border-color: #e9d3d0 ;
+    cursor:pointer;
+    border-radius: 0,5rem;
+}
 }
 @media only screen and (max-width: 768px){
-    .imagen__Indumentaria{
-        block-size: 25rem;
-        border-style: inset;
-        border-width: 1rem;
-        border-color: #e9d3d0 ;
-        cursor:pointer;
-        border-radius: 0,5rem;
-    }
+.imagen__Indumentaria{
+    block-size: 25rem;
+    border-style: inset;
+    border-width: 1rem;
+    border-color: #e9d3d0 ;
+    cursor:pointer;
+    border-radius: 0,5rem;
+}
 }
