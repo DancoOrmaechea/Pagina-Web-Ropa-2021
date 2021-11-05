@@ -260,20 +260,7 @@ h2{
     color:#e27396;
     font-size: 3rem;
 }
-/* Tabla principal */ 
-table{
-    background-color:#b3dee2;
-    color:#e27396;
-    font-size:3rem;
-    display: grid;
-    justify-content: center;
-    max-width: 1000px;
-}
-.tabla{
-    display: grid;
-    align-items: center;
-    justify-content: center;
-}
+
 /* imagenes */
 .ropa__img{
     block-size: 50rem;
@@ -359,16 +346,24 @@ footer{
 @media only screen and (max-width:320px){
 .ropa__Inicio{
     display: flex;
-    justify-content: start;
+    flex-direction:column;
     border-style:none;
-    border-width: 0,5rem;
+    border-width: 0rem;
     border-color: #e9d3d0 ;
     cursor:pointer;
-    border-radius:0,5rem;
+    border-radius:0rem;
+    
 }
-
 .ropa__img{
-    block-size: 12rem;
+    display: grid;
+    justify-content:space-between;
+    block-size: 20rem;
+    border-style: inset;
+    border-width: 1rem;
+    border-color: #e9d3d0 ;
+    cursor:pointer;
+    border-radius: 2rem;
+    z-index: 0;
 }
 
 .carrusel__img{
@@ -384,15 +379,6 @@ footer{
     padding: 0rem 0rem 0rem 0rem;
     max-width: 1000px;
     margin: auto;
-}
-
-.tabla{
-    background-color:#b3dee2;
-    color:#e27396;
-    font-size:1rem;
-    display: grid;
-    justify-content: start;
-    flex-basis: 100%;
 }
 
 tr{
@@ -427,51 +413,80 @@ footer{
 
 .ropa__Inicio{
     display: flex;
-    justify-content: start;
+    flex-direction:column;
     border-style:none;
-    border-width: none;
+    border-width: 0rem;
     border-color: #e9d3d0 ;
     cursor:pointer;
-    border-radius:none;
+    border-radius:0rem;
+    
 }
 .ropa__img{
-    block-size: 14rem;
+    display: grid;
+    justify-content:space-between;
+    block-size: 20rem;
+    border-style: inset;
+    border-width: 1rem;
+    border-color: #e9d3d0 ;
+    cursor:pointer;
+    border-radius: 2rem;
+    z-index: 0;
 }
+
 .carrusel__img{
-    block-size: 16rem;
+    block-size: 12rem;
 }
 }
 @media only screen and (max-width:425px){
 
 .ropa__Inicio{
     display: flex;
-    justify-content: start;
+    flex-direction:column;
     border-style:none;
-    border-width: none;
+    border-width: 0rem;
     border-color: #e9d3d0 ;
     cursor:pointer;
-    border-radius:none;
+    border-radius:0rem;
+    
 }
 .ropa__img{
-    block-size: 15rem;
+    display: grid;
+    justify-content:space-between;
+    block-size: 20rem;
+    border-style: inset;
+    border-width: 1rem;
+    border-color: #e9d3d0 ;
+    cursor:pointer;
+    border-radius: 2rem;
+    z-index: 0;
 }
+
 .carrusel__img{
-    block-size: 16rem;
+    block-size: 12rem;
 }
 }
 @media only screen and (min-width:768px){
 
 .ropa__Inicio{
     display: flex;
-    justify-content: start;
+    flex-direction:column;
     border-style:none;
-    border-width: none;
+    border-width: 0rem;
     border-color: #e9d3d0 ;
     cursor:pointer;
-    border-radius:none;
+    border-radius:0rem;
+    
 }
 .ropa__img{
-    block-size: 24rem;
+    display: grid;
+    justify-content:space-between;
+    block-size: 35rem;
+    border-style: inset;
+    border-width: 1rem;
+    border-color: #e9d3d0 ;
+    cursor:pointer;
+    border-radius: 2rem;
+    z-index: 0;
 }
 }
 

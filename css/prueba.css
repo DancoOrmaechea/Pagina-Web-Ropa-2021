@@ -120,7 +120,7 @@
   background-color: #30343f; }
 
 .titulo__Indumentaria {
-  background-color: #35373f;
+  color: #35373f;
   display: grid;
   justify-content: center; }
 
@@ -159,11 +159,17 @@
   display: flex;
   justify-content: space-around; }
 
+.parrafo__Contraseña__Segundo {
+  font-size: 1.5rem;
+  display: grid;
+  justify-content: center; }
+
 .titulo__nosotros {
   background-color: #36383d; }
 
 .subtitulo__nosotros {
   font-size: 4rem;
+  color: #e9d3d0;
   background-color: #30343f;
   display: grid;
   text-align: center; }
@@ -321,27 +327,32 @@ h1 {
 .titulo {
   background-color: #30343f; }
 
-h2 {
-  color: #e27396;
-  font-size: 3rem; }
-
-table {
-  background-color: #b3dee2;
-  color: #e27396;
-  font-size: 3rem;
+.subtitulo {
   display: grid;
   justify-content: center;
-  max-width: 1000px; }
+  background-color: #f0ceca;
+  color: #696767; }
 
-.tabla {
+.subtitulo__segundo {
+  color: #ffd3da; }
+
+.subtitulo__strong {
   display: grid;
-  align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  border-radius: 1rem;
+  color: #30343f; }
+
+.li__verMas {
+  display: grid;
+  justify-content: center;
+  color: #f7d7d3; }
+
+h2 {
+  color: #ffd3da;
+  font-size: 3rem; }
 
 .ropa__img {
   block-size: 50rem;
-  border-style: inset;
-  border-width: 2rem;
   border-color: #e9d3d0;
   cursor: pointer;
   border-radius: 2rem;
@@ -349,27 +360,24 @@ table {
   .ropa__img:hover {
     transform: scale(120%, 120%); }
 
-.ropa__Inicio {
-  display: grid;
-  grid-template-columns: 40rem 40rem 40rem;
-  align-items: center;
-  justify-content: space-around; }
-
 .buzos__Inicio {
-  background-image: linear-gradient(to bottom, #36383d, #7a7979); }
+  color: #f7d7d3;
+  background-color: #30343f; }
 
 .remeras__Inicio {
-  background-image: linear-gradient(to bottom, #36383d, #7a7979); }
+  color: #f7d7d3;
+  background-color: #30343f; }
 
 .gorras__Inicio {
-  background-image: linear-gradient(to bottom, #36383d, #7a7979); }
+  color: #f7d7d3;
+  background-color: #30343f; }
 
 .subtitulo__segundo {
   background-color: #30343f;
   display: grid;
   justify-content: center; }
 
-.carruselEspacio {
+.carrusel__Espacio {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -396,7 +404,7 @@ table {
 footer {
   color: #30343f;
   background-image: linear-gradient(to right, #f893b3, #e9d3d0);
-  height: 6rem;
+  height: 15rem;
   font-size: 2rem; }
 
 .redes__img {
