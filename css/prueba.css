@@ -352,25 +352,29 @@ h2 {
   font-size: 3rem; }
 
 .ropa__img {
+  display: grid;
+  justify-content: center;
+  margin: 2rem 2rem 2rem 2rem;
   block-size: 50rem;
+  border-style: inset;
+  border-width: 1rem;
   border-color: #e9d3d0;
   cursor: pointer;
   border-radius: 2rem;
-  z-index: 0; }
+  z-index: 0;
+  z-index: 1; }
   .ropa__img:hover {
-    transform: scale(120%, 120%); }
+    transform: scale(105, 105%); }
 
-.buzos__Inicio {
-  color: #f7d7d3;
-  background-color: #30343f; }
+.h2__Index__Subtitulo {
+  background-color: #696767;
+  display: grid;
+  justify-content: center; }
 
-.remeras__Inicio {
+.h2__Strong__Subtitulo {
   color: #f7d7d3;
-  background-color: #30343f; }
-
-.gorras__Inicio {
-  color: #f7d7d3;
-  background-color: #30343f; }
+  display: grid;
+  justify-content: center; }
 
 .subtitulo__segundo {
   background-color: #30343f;

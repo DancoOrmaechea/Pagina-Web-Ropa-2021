@@ -282,16 +282,6 @@ h2{
     justify-content: space-around;
 }
 
-.buzos__Inicio{
-    background-image:linear-gradient(to bottom,#36383d,#7a7979);
-}
-.remeras__Inicio{
-    background-image:linear-gradient(to bottom,#36383d,#7a7979);
-}
-.gorras__Inicio{
-    background-image:linear-gradient(to bottom,#36383d,#7a7979);
-}
-
 .subtitulo__segundo{
     background-color: #30343f ;
     display: grid;
@@ -367,7 +357,7 @@ footer{
 }
 
 .carrusel__img{
-    block-size: 12rem;
+    block-size: 15rem;
 }
 
 .navegacion{
@@ -434,7 +424,7 @@ footer{
 }
 
 .carrusel__img{
-    block-size: 12rem;
+    block-size: 15rem;
 }
 }
 @media only screen and (max-width:425px){
@@ -462,14 +452,14 @@ footer{
 }
 
 .carrusel__img{
-    block-size: 12rem;
+    block-size: 15rem;
 }
 }
 @media only screen and (min-width:768px){
 
 .ropa__Inicio{
     display: flex;
-    flex-direction:column;
+    flex-wrap:wrap;
     border-style:none;
     border-width: 0rem;
     border-color: #e9d3d0 ;
@@ -477,10 +467,11 @@ footer{
     border-radius:0rem;
     
 }
+
 .ropa__img{
     display: grid;
-    justify-content:space-between;
-    block-size: 35rem;
+    justify-content:start;
+    block-size: 20rem;
     border-style: inset;
     border-width: 1rem;
     border-color: #e9d3d0 ;
@@ -489,19 +480,53 @@ footer{
     z-index: 0;
 }
 }
+@media only screen and (min-width:1024px){
+.ropa__Inicio{
+    display: flex;
+    flex-wrap:wrap;
+    border-style:none;
+    border-width: 0rem;
+    border-color: #e9d3d0 ;
+    cursor:pointer;
+    border-radius:0rem;
+    
+}
 
+    .ropa__img{
+    display: grid;
+    justify-content:start;
+    block-size: 30rem;
+    border-style: inset;
+    border-width: 1rem;
+    border-color: #e9d3d0 ;
+    cursor:pointer;
+    border-radius: 2rem;
+    z-index: 0;
+}
+}
 @media only screen and (min-width:1440px){
 .ropa__Inicio{
-    display: grid;
-    grid-template-columns: 40rem 40rem 40rem;
-    align-items: center;
-    justify-content: space-around;
-}
-.ropa__img{
-    block-size: 50rem;
-}
+    display: flex;
+    flex-wrap:wrap;
+    border-style:none;
+    border-width: 0rem;
+    border-color: #e9d3d0 ;
+    cursor:pointer;
+    border-radius:0rem;
 }
 
+    .ropa__img{
+    display: grid;
+    justify-content:start;
+    block-size: 40rem;
+    border-style: inset;
+    border-width: 1rem;
+    border-color: #e9d3d0 ;
+    cursor:pointer;
+    border-radius: 2rem;
+    z-index: 0;
+}
+}
 /* Animacion */
 @keyframes pandaAnimado{
 }
